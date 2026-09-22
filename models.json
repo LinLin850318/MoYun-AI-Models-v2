@@ -1,0 +1,669 @@
+{
+  "version": "2.0",
+  "updated": "2026-09-23",
+  "total": 64,
+  "local_count": 11,
+  "cloud_count": 53,
+  "models": [
+    {
+      "id": "qwen1.5-0.5b",
+      "name": "Qwen1.5-0.5B-Chat",
+      "desc": "通义千问超小指令模型，中英文对话，INT8量化ONNX，本地运行",
+      "type": "local",
+      "modelUrl": "https://gitee.com/Xie-2010/MoYun-AI-Models/raw/master/qwen1.5-0.5b/model_int8.onnx",
+      "chunkCount": 92,
+      "tokenizerUrl": "https://gitee.com/Xie-2010/MoYun-AI-Models/raw/master/qwen1.5-0.5b/tokenizer.json",
+      "sizeMb": 460,
+      "contextLength": 512,
+      "category": "本地模型"
+    },
+    {
+      "id": "gpt2",
+      "name": "GPT-2 (英文)",
+      "desc": "OpenAI GPT-2小模型，英文文本生成，INT8量化ONNX，本地运行",
+      "type": "local",
+      "modelUrl": "https://gitee.com/Xie-2010/MoYun-AI-Models/raw/master/gpt2/model_int8.onnx",
+      "chunkCount": 54,
+      "tokenizerUrl": "https://gitee.com/Xie-2010/MoYun-AI-Models/raw/master/gpt2/tokenizer.json",
+      "sizeMb": 268,
+      "contextLength": 512,
+      "category": "本地模型"
+    },
+    {
+      "id": "llama2-15m",
+      "name": "Llama2.c Stories 15M",
+      "desc": "超小型故事生成模型（15M参数），英文，极速推理，INT8量化ONNX",
+      "type": "local",
+      "modelUrl": "https://gitee.com/Xie-2010/MoYun-AI-Models/raw/master/llama2-15m/model_int8.onnx",
+      "chunkCount": 3,
+      "tokenizerUrl": "https://gitee.com/Xie-2010/MoYun-AI-Models/raw/master/llama2-15m/tokenizer.json",
+      "sizeMb": 15,
+      "contextLength": 256,
+      "category": "本地模型"
+    },
+    {
+      "id": "llama2-42m",
+      "name": "Llama2.c Stories 42M",
+      "desc": "小型故事生成模型（42M参数），英文，快速推理，INT8量化ONNX",
+      "type": "local",
+      "modelUrl": "https://gitee.com/Xie-2010/MoYun-AI-Models/raw/master/llama2-42m/model_int8.onnx",
+      "chunkCount": 9,
+      "tokenizerUrl": "https://gitee.com/Xie-2010/MoYun-AI-Models/raw/master/llama2-42m/tokenizer.json",
+      "sizeMb": 42,
+      "contextLength": 256,
+      "category": "本地模型"
+    },
+    {
+      "id": "llama2-110m",
+      "name": "Llama2.c Stories 110M",
+      "desc": "故事生成模型（110M参数），英文，质量较好，INT8量化ONNX",
+      "type": "local",
+      "modelUrl": "https://gitee.com/Xie-2010/MoYun-AI-Models/raw/master/llama2-110m/model_int8.onnx",
+      "chunkCount": 21,
+      "tokenizerUrl": "https://gitee.com/Xie-2010/MoYun-AI-Models/raw/master/llama2-110m/tokenizer.json",
+      "sizeMb": 110,
+      "contextLength": 512,
+      "category": "本地模型"
+    },
+    {
+      "id": "distilgpt2",
+      "name": "DistilGPT-2 (英文)",
+      "desc": "GPT-2蒸馏版，参数减半速度更快，英文文本生成，INT8量化ONNX",
+      "type": "local",
+      "modelUrl": "https://gitee.com/Xie-2010/MoYun-AI-Models/raw/master/distilgpt2/model_int8.onnx",
+      "chunkCount": 46,
+      "tokenizerUrl": "https://gitee.com/Xie-2010/MoYun-AI-Models/raw/master/distilgpt2/tokenizer.json",
+      "sizeMb": 236,
+      "contextLength": 512,
+      "category": "本地模型"
+    },
+    {
+      "id": "llama-68m",
+      "name": "Llama-68M (英文)",
+      "desc": "小型Llama模型（68M参数），英文文本生成，ONNX",
+      "type": "local",
+      "modelUrl": "https://gitee.com/Xie-2010/MoYun-AI-Models/raw/master/llama-68m/model_int8.onnx",
+      "chunkCount": 53,
+      "tokenizerUrl": "https://gitee.com/Xie-2010/MoYun-AI-Models/raw/master/llama-68m/tokenizer.json",
+      "sizeMb": 274,
+      "contextLength": 512,
+      "category": "本地模型"
+    },
+    {
+      "id": "tamillama-30m",
+      "name": "TamilLlama Tiny 30M",
+      "desc": "超小型Llama模型（30M参数），泰米尔语/英文，极速推理，ONNX",
+      "type": "local",
+      "modelUrl": "https://gitee.com/Xie-2010/MoYun-AI-Models/raw/master/tamillama-30m/model_int8.onnx",
+      "chunkCount": 24,
+      "tokenizerUrl": "https://gitee.com/Xie-2010/MoYun-AI-Models/raw/master/tamillama-30m/tokenizer.json",
+      "sizeMb": 123,
+      "contextLength": 256,
+      "category": "本地模型"
+    },
+    {
+      "id": "codegen-350m",
+      "name": "CodeGen-350M-Mono (代码)",
+      "desc": "Salesforce代码生成模型（350M参数），Python/Java等代码补全，INT8量化ONNX",
+      "type": "local",
+      "modelUrl": "https://gitee.com/Xie-2010/MoYun-AI-Models/raw/master/codegen-350m/model_int8.onnx",
+      "chunkCount": 69,
+      "tokenizerUrl": "https://gitee.com/Xie-2010/MoYun-AI-Models/raw/master/codegen-350m/tokenizer.json",
+      "sizeMb": 358,
+      "contextLength": 512,
+      "category": "本地模型"
+    },
+    {
+      "id": "lamini-gpt-124m",
+      "name": "LaMini-GPT-124M (英文指令)",
+      "desc": "指令微调GPT模型（124M参数），英文问答/摘要/翻译，ONNX",
+      "type": "local",
+      "modelUrl": "https://gitee.com/Xie-2010/MoYun-AI-Models-v2/raw/master/lamini-gpt-124m/model_int8.onnx",
+      "chunkCount": 96,
+      "tokenizerUrl": "https://gitee.com/Xie-2010/MoYun-AI-Models-v2/raw/master/lamini-gpt-124m/tokenizer.json",
+      "sizeMb": 500,
+      "contextLength": 512,
+      "category": "本地模型"
+    },
+    {
+      "id": "custom",
+      "name": "自定义模型",
+      "desc": "自行填写ONNX模型地址或OpenAI兼容API地址",
+      "type": "local",
+      "sizeMb": 0,
+      "contextLength": 512,
+      "category": "自定义"
+    },
+    {
+      "id": "openpangu-2.0",
+      "name": "openPangu 2.0",
+      "desc": "华为盘古大模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://openapi.huaweicloud.com/v1",
+      "apiModel": "openpangu-2.0",
+      "contextLength": 32768,
+      "category": "华为盘古"
+    },
+    {
+      "id": "ernie-4.5",
+      "name": "ERNIE 4.5",
+      "desc": "百度文心一言4.5大模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop",
+      "apiModel": "ernie-4.5",
+      "contextLength": 128000,
+      "category": "百度文心"
+    },
+    {
+      "id": "hunyuan-a13b",
+      "name": "Hunyuan-A13B",
+      "desc": "腾讯混元大模型A13B，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://hunyuan.tencentcloudapi.com",
+      "apiModel": "hunyuan-a13b",
+      "contextLength": 32768,
+      "category": "腾讯混元"
+    },
+    {
+      "id": "ling-moe",
+      "name": "Ling 系列 MoE",
+      "desc": "字节跳动Ling系列MoE大模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://ark.cn-beijing.volces.com/api/v3",
+      "apiModel": "ling-moe",
+      "contextLength": 131072,
+      "category": "字节Ling"
+    },
+    {
+      "id": "ling-3.0-flash-vl",
+      "name": "Ling-3.0-Flash-VL 多模态",
+      "desc": "字节跳动Ling-3.0-Flash视觉语言多模态，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://ark.cn-beijing.volces.com/api/v3",
+      "apiModel": "ling-3.0-flash-vl",
+      "contextLength": 131072,
+      "category": "字节Ling"
+    },
+    {
+      "id": "kimi-k2",
+      "name": "Kimi K2",
+      "desc": "月之暗面Kimi K2大模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://api.moonshot.cn/v1",
+      "apiModel": "kimi-k2",
+      "contextLength": 262144,
+      "category": "Kimi"
+    },
+    {
+      "id": "kimi-k2-code",
+      "name": "Kimi K2.Code",
+      "desc": "月之暗面Kimi K2代码专用模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://api.moonshot.cn/v1",
+      "apiModel": "kimi-k2-code",
+      "contextLength": 262144,
+      "category": "Kimi"
+    },
+    {
+      "id": "minimax-m3",
+      "name": "MiniMax M3",
+      "desc": "MiniMax M3大模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://api.minimax.chat/v1",
+      "apiModel": "minimax-m3",
+      "contextLength": 1048576,
+      "category": "MiniMax"
+    },
+    {
+      "id": "minimax-m2.7",
+      "name": "MiniMax M2.7",
+      "desc": "MiniMax M2.7大模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://api.minimax.chat/v1",
+      "apiModel": "minimax-m2.7",
+      "contextLength": 262144,
+      "category": "MiniMax"
+    },
+    {
+      "id": "baichuan2-7b",
+      "name": "Baichuan2 7B",
+      "desc": "百川智能Baichuan2 7B，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://api.baichuan-ai.com/v1",
+      "apiModel": "Baichuan2-7B-Chat",
+      "contextLength": 32768,
+      "category": "百川"
+    },
+    {
+      "id": "baichuan2-13b",
+      "name": "Baichuan2 13B",
+      "desc": "百川智能Baichuan2 13B，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://api.baichuan-ai.com/v1",
+      "apiModel": "Baichuan2-13B-Chat",
+      "contextLength": 32768,
+      "category": "百川"
+    },
+    {
+      "id": "baichuan3",
+      "name": "Baichuan3",
+      "desc": "百川智能Baichuan3大模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://api.baichuan-ai.com/v1",
+      "apiModel": "Baichuan3",
+      "contextLength": 32768,
+      "category": "百川"
+    },
+    {
+      "id": "yi-6b",
+      "name": "Yi-6B",
+      "desc": "零一万物Yi-6B，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://api.lingyiwanwu.com/v1",
+      "apiModel": "yi-6b",
+      "contextLength": 4096,
+      "category": "Yi"
+    },
+    {
+      "id": "yi-9b",
+      "name": "Yi-9B",
+      "desc": "零一万物Yi-9B，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://api.lingyiwanwu.com/v1",
+      "apiModel": "yi-9b",
+      "contextLength": 16384,
+      "category": "Yi"
+    },
+    {
+      "id": "yi-34b",
+      "name": "Yi-34B",
+      "desc": "零一万物Yi-34B，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://api.lingyiwanwu.com/v1",
+      "apiModel": "yi-34b",
+      "contextLength": 32768,
+      "category": "Yi"
+    },
+    {
+      "id": "yi-1.5-34b",
+      "name": "Yi-1.5-34B",
+      "desc": "零一万物Yi-1.5-34B，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://api.lingyiwanwu.com/v1",
+      "apiModel": "yi-1.5-34b",
+      "contextLength": 32768,
+      "category": "Yi"
+    },
+    {
+      "id": "yi-vl",
+      "name": "Yi-VL 多模态",
+      "desc": "零一万物Yi-VL视觉语言多模态，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://api.lingyiwanwu.com/v1",
+      "apiModel": "yi-vl",
+      "contextLength": 16384,
+      "category": "Yi"
+    },
+    {
+      "id": "internlm-1.8b",
+      "name": "InternLM 1.8B",
+      "desc": "上海AI实验室InternLM 1.8B稠密模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://internlm-chat.intern-ai.org.cn/api/v1",
+      "apiModel": "internlm-1.8b",
+      "contextLength": 8192,
+      "category": "InternLM"
+    },
+    {
+      "id": "internlm-7b",
+      "name": "InternLM 7B",
+      "desc": "上海AI实验室InternLM 7B稠密模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://internlm-chat.intern-ai.org.cn/api/v1",
+      "apiModel": "internlm-7b",
+      "contextLength": 8192,
+      "category": "InternLM"
+    },
+    {
+      "id": "internlm-20b",
+      "name": "InternLM 20B",
+      "desc": "上海AI实验室InternLM 20B稠密模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://internlm-chat.intern-ai.org.cn/api/v1",
+      "apiModel": "internlm-20b",
+      "contextLength": 16384,
+      "category": "InternLM"
+    },
+    {
+      "id": "internlm3-8b",
+      "name": "InternLM3 8B",
+      "desc": "上海AI实验室InternLM3 8B稠密模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://internlm-chat.intern-ai.org.cn/api/v1",
+      "apiModel": "internlm3-8b",
+      "contextLength": 32768,
+      "category": "InternLM"
+    },
+    {
+      "id": "internvl",
+      "name": "InternVL 多模态",
+      "desc": "上海AI实验室InternVL视觉语言多模态，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://internlm-chat.intern-ai.org.cn/api/v1",
+      "apiModel": "internvl",
+      "contextLength": 32768,
+      "category": "InternLM"
+    },
+    {
+      "id": "chatglm2",
+      "name": "ChatGLM2",
+      "desc": "智谱ChatGLM2，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://open.bigmodel.cn/api/paas/v4",
+      "apiModel": "chatglm2",
+      "contextLength": 32768,
+      "category": "智谱GLM"
+    },
+    {
+      "id": "chatglm3",
+      "name": "ChatGLM3",
+      "desc": "智谱ChatGLM3，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://open.bigmodel.cn/api/paas/v4",
+      "apiModel": "chatglm3",
+      "contextLength": 32768,
+      "category": "智谱GLM"
+    },
+    {
+      "id": "glm4-9b",
+      "name": "GLM-4 9B",
+      "desc": "智谱GLM-4 9B小模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://open.bigmodel.cn/api/paas/v4",
+      "apiModel": "glm-4-9b",
+      "contextLength": 128000,
+      "category": "智谱GLM"
+    },
+    {
+      "id": "glm4-32b",
+      "name": "GLM-4 32B",
+      "desc": "智谱GLM-4 32B模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://open.bigmodel.cn/api/paas/v4",
+      "apiModel": "glm-4-32b",
+      "contextLength": 128000,
+      "category": "智谱GLM"
+    },
+    {
+      "id": "glm-4.6",
+      "name": "GLM-4.6",
+      "desc": "智谱GLM-4.6大模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://open.bigmodel.cn/api/paas/v4",
+      "apiModel": "glm-4.6",
+      "contextLength": 200000,
+      "category": "智谱GLM"
+    },
+    {
+      "id": "glm-4.7",
+      "name": "GLM-4.7",
+      "desc": "智谱GLM-4.7大模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://open.bigmodel.cn/api/paas/v4",
+      "apiModel": "glm-4.7",
+      "contextLength": 200000,
+      "category": "智谱GLM"
+    },
+    {
+      "id": "glm-5",
+      "name": "GLM-5",
+      "desc": "智谱GLM-5 MoE大模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://open.bigmodel.cn/api/paas/v4",
+      "apiModel": "glm-5",
+      "contextLength": 200000,
+      "category": "智谱GLM"
+    },
+    {
+      "id": "glm-5.1",
+      "name": "GLM-5.1",
+      "desc": "智谱GLM-5.1 MoE大模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://open.bigmodel.cn/api/paas/v4",
+      "apiModel": "glm-5.1",
+      "contextLength": 200000,
+      "category": "智谱GLM"
+    },
+    {
+      "id": "glm-5.2",
+      "name": "GLM-5.2 (744B/40B激活)",
+      "desc": "智谱GLM-5.2 MoE大模型（744B总参/40B激活，1M上下文，MIT），云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://open.bigmodel.cn/api/paas/v4",
+      "apiModel": "glm-5.2",
+      "contextLength": 1048576,
+      "category": "智谱GLM"
+    },
+    {
+      "id": "deepseek-7b",
+      "name": "DeepSeek-LLM 7B",
+      "desc": "深度求索DeepSeek-LLM 7B稠密模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://api.deepseek.com/v1",
+      "apiModel": "deepseek-7b",
+      "contextLength": 32768,
+      "category": "DeepSeek"
+    },
+    {
+      "id": "deepseek-67b",
+      "name": "DeepSeek-LLM 67B",
+      "desc": "深度求索DeepSeek-LLM 67B稠密模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://api.deepseek.com/v1",
+      "apiModel": "deepseek-67b",
+      "contextLength": 32768,
+      "category": "DeepSeek"
+    },
+    {
+      "id": "deepseek-v2",
+      "name": "DeepSeek-V2",
+      "desc": "深度求索DeepSeek-V2 MoE大模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://api.deepseek.com/v1",
+      "apiModel": "deepseek-v2",
+      "contextLength": 128000,
+      "category": "DeepSeek"
+    },
+    {
+      "id": "deepseek-v3",
+      "name": "DeepSeek-V3",
+      "desc": "深度求索DeepSeek-V3 MoE大模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://api.deepseek.com/v1",
+      "apiModel": "deepseek-v3",
+      "contextLength": 128000,
+      "category": "DeepSeek"
+    },
+    {
+      "id": "deepseek-r1",
+      "name": "DeepSeek-R1 推理",
+      "desc": "深度求索DeepSeek-R1推理系列模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://api.deepseek.com/v1",
+      "apiModel": "deepseek-r1",
+      "contextLength": 128000,
+      "category": "DeepSeek"
+    },
+    {
+      "id": "deepseek-coder",
+      "name": "DeepSeek-Coder",
+      "desc": "深度求索DeepSeek-Coder代码专用模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://api.deepseek.com/v1",
+      "apiModel": "deepseek-coder",
+      "contextLength": 128000,
+      "category": "DeepSeek"
+    },
+    {
+      "id": "deepseek-vl",
+      "name": "DeepSeek-VL 多模态",
+      "desc": "深度求索DeepSeek-VL视觉语言多模态，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://api.deepseek.com/v1",
+      "apiModel": "deepseek-vl",
+      "contextLength": 32768,
+      "category": "DeepSeek"
+    },
+    {
+      "id": "qwen3-235b",
+      "name": "Qwen3-235B-A22B (MoE)",
+      "desc": "阿里通义Qwen3-235B-A22B MoE大模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "apiModel": "qwen3-235b-a22b",
+      "contextLength": 131072,
+      "category": "通义千问"
+    },
+    {
+      "id": "qwen3.6-35b",
+      "name": "Qwen3.6-35B-A3B",
+      "desc": "阿里通义Qwen3.6-35B-A3B MoE模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "apiModel": "qwen3.6-35b-a3b",
+      "contextLength": 131072,
+      "category": "通义千问"
+    },
+    {
+      "id": "qwen3.6-27b",
+      "name": "Qwen3.6-27B",
+      "desc": "阿里通义Qwen3.6-27B稠密模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "apiModel": "qwen3.6-27b",
+      "contextLength": 131072,
+      "category": "通义千问"
+    },
+    {
+      "id": "qwen-vl",
+      "name": "Qwen-VL 多模态",
+      "desc": "阿里通义Qwen-VL视觉语言多模态，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "apiModel": "qwen-vl-max",
+      "contextLength": 32768,
+      "category": "通义千问"
+    },
+    {
+      "id": "qwen3-vl",
+      "name": "Qwen3 多模态版",
+      "desc": "阿里通义Qwen3多模态版本，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "apiModel": "qwen3-vl",
+      "contextLength": 131072,
+      "category": "通义千问"
+    },
+    {
+      "id": "qwen2.5-72b",
+      "name": "Qwen2.5-72B",
+      "desc": "阿里通义Qwen2.5-72B稠密模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "apiModel": "qwen2.5-72b-instruct",
+      "contextLength": 131072,
+      "category": "通义千问"
+    },
+    {
+      "id": "qwen2.5-32b",
+      "name": "Qwen2.5-32B",
+      "desc": "阿里通义Qwen2.5-32B稠密模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "apiModel": "qwen2.5-32b-instruct",
+      "contextLength": 131072,
+      "category": "通义千问"
+    },
+    {
+      "id": "qwen2.5-14b",
+      "name": "Qwen2.5-14B",
+      "desc": "阿里通义Qwen2.5-14B稠密模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "apiModel": "qwen2.5-14b-instruct",
+      "contextLength": 131072,
+      "category": "通义千问"
+    },
+    {
+      "id": "qwen2.5-7b",
+      "name": "Qwen2.5-7B",
+      "desc": "阿里通义Qwen2.5-7B稠密模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "apiModel": "qwen2.5-7b-instruct",
+      "contextLength": 131072,
+      "category": "通义千问"
+    },
+    {
+      "id": "qwen3-32b",
+      "name": "Qwen3-32B",
+      "desc": "阿里通义Qwen3-32B稠密模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "apiModel": "qwen3-32b",
+      "contextLength": 131072,
+      "category": "通义千问"
+    },
+    {
+      "id": "qwen3-14b",
+      "name": "Qwen3-14B",
+      "desc": "阿里通义Qwen3-14B稠密模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "apiModel": "qwen3-14b",
+      "contextLength": 131072,
+      "category": "通义千问"
+    },
+    {
+      "id": "qwen3-8b",
+      "name": "Qwen3-8B",
+      "desc": "阿里通义Qwen3-8B稠密模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "apiModel": "qwen3-8b",
+      "contextLength": 131072,
+      "category": "通义千问"
+    },
+    {
+      "id": "qwen3-4b",
+      "name": "Qwen3-4B",
+      "desc": "阿里通义Qwen3-4B稠密模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "apiModel": "qwen3-4b",
+      "contextLength": 131072,
+      "category": "通义千问"
+    },
+    {
+      "id": "qwen3-1.7b",
+      "name": "Qwen3-1.7B",
+      "desc": "阿里通义Qwen3-1.7B稠密模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "apiModel": "qwen3-1.7b",
+      "contextLength": 131072,
+      "category": "通义千问"
+    },
+    {
+      "id": "qwen3-0.6b",
+      "name": "Qwen3-0.6B",
+      "desc": "阿里通义Qwen3-0.6B稠密模型，云端API",
+      "type": "cloud",
+      "apiBaseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "apiModel": "qwen3-0.6b",
+      "contextLength": 131072,
+      "category": "通义千问"
+    }
+  ],
+  "note": "模型清单存放于v2仓库；9个模型在v1仓库，lamini-gpt-124m在v2仓库"
+}
